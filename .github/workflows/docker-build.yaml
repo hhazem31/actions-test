@@ -8,8 +8,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -
+        name: pwd and ls
+        run: |
+          pwd
+          ls -la
+      -
         name: Checkout
         uses: actions/checkout@v5
+      -
+        name: pwd and ls
+        run: |
+          pwd
+          ls -la
       -
         # Add support for more platforms with QEMU (optional)
         # https://github.com/docker/setup-qemu-action
