@@ -31,3 +31,6 @@ jobs:
     
       - name: Check buildx command
         run: docker buildx ls
+
+      - name: check docker version
+        run: docker version
