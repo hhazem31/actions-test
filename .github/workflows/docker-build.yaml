@@ -2,6 +2,7 @@ name: docker build
 
 on:
   push:
+  workflow_dispatch: # manual
 
 jobs:
   buildx:
