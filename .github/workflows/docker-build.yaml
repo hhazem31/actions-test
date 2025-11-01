@@ -6,7 +6,7 @@ on:
 
 jobs:
   buildx:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       -
         name: pwd and ls
