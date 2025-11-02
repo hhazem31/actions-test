@@ -12,7 +12,7 @@ jobs:
         name: pwd and ls
         run: |
           pwd
-          ls -la
+          ls
       -
         name: Checkout
         uses: actions/checkout@v5
@@ -20,7 +20,7 @@ jobs:
         name: pwd and ls
         run: |
           pwd
-          ls -la
+          ls
       -
         # Add support for more platforms with QEMU (optional)
         # https://github.com/docker/setup-qemu-action
