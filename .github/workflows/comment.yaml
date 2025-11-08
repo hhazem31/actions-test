@@ -7,6 +7,8 @@ on:
 
 jobs:
     chat:
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         runs-on: ubuntu-latest
         steps:
             - name: Say ay7aga
