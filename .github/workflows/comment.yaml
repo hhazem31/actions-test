@@ -1,0 +1,15 @@
+name: ay7aga
+
+on:
+    issue_comment:
+        types: [created]
+
+
+jobs:
+    chat:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Say ay7aga
+              run: echo "ay7aga"
+            - name: use gh command
+              run: gh issue list
